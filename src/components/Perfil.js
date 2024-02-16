@@ -9,7 +9,7 @@ export const Perfil = (props) => {
             <div className="img-container">
                 <img
                     className="img-profile"
-                    src={props.nombre === "Brais Moure" ? img : img2}
+                    src={props.nombre != "Brais Moure" ? img2 : img}
                     alt={`Foto de ${props.nombre}`}
                 />
             </div>
